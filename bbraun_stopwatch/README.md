@@ -1,20 +1,16 @@
+Stopwatch for calibration of *Infusomat Space* и *Infusomat fm*S infusion pumps manufactured by **B|Braun Melsungen AG** Used by **B|Braun** service engineers during the repair and maintenance of the above equipment.
 
+Helps to greatly facilitate the calibration of infusion pumps. It is convenient to time and reset the countdown to zero after the previous procedure. No need to constantly monitor the filling of the flask: the program will beep when you need to get ready to stop the pump. There is no need to manually recalculate the speed deviation and the necessary correction: everything happens automatically when you press the corresponding button.
 
-Секундомер для калибровки инфузионных насосов *Infusomat Space* и *Infusomat fm*S производства **B|Braun Melsungen AG**
-Используется сервисными инженерами **B|Braun** в процессе ремонта и ТО указанного оборудования. 
+Instructions for use:
 
-Помогает значительно облегчить процедуру калибровки инфузионных насосов. Удобно засекать время и сбрасывать отсчет на ноль после предыдущей процедуры. Не нужно следить за наполнением колбы постоянно: программа подаст звуковой сигнал, когда нужно приготовиться остановить насос. Не нужно пересчитывать вручную отклонение по скорости и необходимую поправку: все происходит автоматически при нажатии соответствующей кнопки. 
+1. Prepare the device for calibration according to the service manual
+2. Run the program
+3. Simultaneously start the pump and press ***Start/Stop***
+4. Once the calibration flask is full, stop the program with the Stop button and the pump
+5. Click Calculate to calculate the deviation and Scale Factor
+6. For convenience, to prevent overfilling of the flask, shortly before the end of its filling (and also at the time of 6:00), warning sound signals are given. The colored bar at the bottom of the window after pressing the Calculate button indicates the need to change the pump settings:
 
-
-Инструкция по применению:
-
-1. Подготовьте прибор для калибровки согласно сервисной инструкции
-2. Запустите программу
-3. Одновременно запустите насос и нажмите **Start/Stop**
-4. Как только калибровочная колба будет заполнена, остановите программу кнопкой **Stop** и насос 
-5. Нажмите **Calculate** для подсчета отклонения и значения параметра *Scale Factor*
-
-Для удобства, для предотвращения переполнения колбы, незадолго до окончания ее наполнения  (а так же в момент времени 6:00) подаются предупреждающие звуковые сигналы,. Цветная полоса внизу окна после нажатия кнопки **Calculate** показывает необходимость изменения настроек насоса:
-* Красный цвет : необходима поправка
-* Желтый цвет : поправка может быть сделана, но не обязательна
-* Зеленый цвет : поправка не требуется
+* Red color : correction required
+* Yellow: correction can be made but not required
+* Green color : no correction required
