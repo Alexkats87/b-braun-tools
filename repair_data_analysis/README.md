@@ -1,2 +1,5 @@
-Черновой код для сбора и преобразования данных о ремонтах инфузионной техники за период 2011-2016 гг. Имеется черновой вариант ноутбука для построения 
-модели для прогнозирования стоимости ремонта техники на основании исторических данных.
+Repairing & Service costs estimation project for B|Braun infusion pumps for the period 2011-2016. Includes:
+
+- Sikuli PDF files scrapper (historical data)
+- Parser to extract data from PDF files to CSV table
+- Machine learning model to predict repairing cost for infusion pumps based on customer data, pumps age, pumps working hours etc.
