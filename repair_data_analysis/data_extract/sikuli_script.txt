@@ -34,7 +34,7 @@ while n<2600: # while not exists (SAP disconnect ERR) OR ()
     #===================================================================================
 
     
-    type(Key.ALT)    #click("1451300681918.png")   #ôàêòóðà -> âûâåñòè  OR (hot_key_combination)
+    type(Key.ALT)    #click("1451300681918.png")   #Ã´Ã ÃªÃ²Ã³Ã°Ã  -> Ã¢Ã»Ã¢Ã¥Ã±Ã²Ã¨  OR (hot_key_combination)
     wait(1)
     for i in range(1,7):
         wait(0.2)
@@ -43,7 +43,7 @@ while n<2600: # while not exists (SAP disconnect ERR) OR ()
     type(Key.ENTER)   # out CE !
     
       
-    if exists("1451302210821.png") :                        # if CE óäàëåí èëè èñïîëüçóåòñÿ
+    if exists("1451302210821.png") :                        # if CE Ã³Ã¤Ã Ã«Ã¥Ã­ Ã¨Ã«Ã¨ Ã¨Ã±Ã¯Ã®Ã«Ã¼Ã§Ã³Ã¥Ã²Ã±Ã¿
         err_ce_file.write(CE)
         err_ce_file.close()
         wait(1)
@@ -147,20 +147,20 @@ while n<2600: # while not exists (SAP disconnect ERR) OR ()
     # wait (PDF-creator ERROR,  5 sek) 
     # if (PDF-creator ERROR)
         # click(close pdf-error message)
-    # wait () æäåì îêíî êðåýéòîðà : ñåêóíäû èëè êàðòèíêó
+    # wait () Ã¦Ã¤Ã¥Ã¬ Ã®ÃªÃ­Ã® ÃªÃ°Ã¥Ã½Ã©Ã²Ã®Ã°Ã  : Ã±Ã¥ÃªÃ³Ã­Ã¤Ã» Ã¨Ã«Ã¨ ÃªÃ Ã°Ã²Ã¨Ã­ÃªÃ³
     
-    # click OK x 2 : çàêðûâàåì äèàëîãîâûå îêíà ïðèíòåðà 
+    # click OK x 2 : Ã§Ã ÃªÃ°Ã»Ã¢Ã Ã¥Ã¬ Ã¤Ã¨Ã Ã«Ã®Ã£Ã®Ã¢Ã»Ã¥ Ã®ÃªÃ­Ã  Ã¯Ã°Ã¨Ã­Ã²Ã¥Ã°Ã  
     # wait(3) 
     
-    # âûáèðàåì ïàïêó äëÿ ñîõðàíåíèÿ 1-ãî ôàéëà
+    # Ã¢Ã»Ã¡Ã¨Ã°Ã Ã¥Ã¬ Ã¯Ã Ã¯ÃªÃ³ Ã¤Ã«Ã¿ Ã±Ã®ÃµÃ°Ã Ã­Ã¥Ã­Ã¨Ã¿ 1-Ã£Ã® Ã´Ã Ã©Ã«Ã 
     #type(CE)
-    # OK - ñîõðàíåíèå
-    # âûáèðàåì ïàïêó äëÿ ñîõðàíåíèÿ 2-ãî ôàéëà
+    # OK - Ã±Ã®ÃµÃ°Ã Ã­Ã¥Ã­Ã¨Ã¥
+    # Ã¢Ã»Ã¡Ã¨Ã°Ã Ã¥Ã¬ Ã¯Ã Ã¯ÃªÃ³ Ã¤Ã«Ã¿ Ã±Ã®ÃµÃ°Ã Ã­Ã¥Ã­Ã¨Ã¿ 2-Ã£Ã® Ã´Ã Ã©Ã«Ã 
     #type(CE_2)
-    # OK - ñîõðàíåíèå
-    # çàêðûòü îêíà PDF !
+    # OK - Ã±Ã®ÃµÃ°Ã Ã­Ã¥Ã­Ã¨Ã¥
+    # Ã§Ã ÃªÃ°Ã»Ã²Ã¼ Ã®ÃªÃ­Ã  PDF !
     
-    # App.focus("sap") #ôîêóñ íà îêíî ÑÀÏ
+    # App.focus("sap") #Ã´Ã®ÃªÃ³Ã± Ã­Ã  Ã®ÃªÃ­Ã® Ã‘Ã€Ã
    
     old_ce_file.write(CE)
    
